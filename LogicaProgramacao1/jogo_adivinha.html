@@ -15,19 +15,23 @@
     function sorteia(numero){
         return Math.round(Math.random() * numero)
     }
-    var numeroPensado = sorteia(100);
+    var numeroPensado = sorteia(10);
+    var tentativas = 1;
 
-    var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
-
-    if(chute == numeroPensado) {
-
-        mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
-    } else {
-        if (chute > numeroPensado){
-            mostra("Você errou! Eu pensei em um número menor. " + numeroPensado);
+    while(tentativas <= 3){
+        var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+    
+        if(chute == numeroPensado) {
+            mostra("Uau! Você acertou!");
+            break;
         } else {
-            mostra("Você errou! Eu pensei em um número maior. " + numeroPensado);
-        }
-        
+            if (chute > numeroPensado){
+                mostra("Você errou! Eu pensei em um número menor." );                
+            } else {
+                mostra("Você errou! Eu pensei em um número maior.");
+            }
+        }    
+        tentativas++;
     }
+    mostra("Numero pensado: " + numeroPensado);
 </script>
