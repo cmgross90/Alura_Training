@@ -17,7 +17,16 @@
 
     var alturaInformada = prompt("Informe sua altura");
     var pesoInformado = prompt("Informe seu peso");
+    var imc = calculaIMC(pesoInformado, alturaInformada);
 
-    mostra("Seu IMC é: " + calculaIMC(pesoInformado, alturaInformada));
+    if(imc < 18.5){
+        mostra("Seu IMC é: " + imc + ". Você está abaixo do recomendado.");
+    }
+    if(imc > 35){
+        mostra("Seu IMC é: " + imc + ". Você está acima do recomendado.");
+    }
+    if(imc >= 18.5 && imc <= 35){        
+        mostra("Seu IMC é: " + imc + ". Você está excelente.");        
+    }
 
 </script>
