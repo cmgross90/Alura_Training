@@ -18,7 +18,15 @@
         pincel.beginPath();
 
         if (evento.shiftKey){
-            raio = raio + 20;
+            if (raio < 40) {
+                raio = raio + 10;
+            }            
+        }
+
+        if (evento.altKey){
+            if (raio > 10) {
+                raio = raio - 5;
+            }
         }
 
         pincel.arc(x, y, raio, 0, 2 * 3.14);
