@@ -6,19 +6,22 @@
     pincel.fillStyle = 'grey';
     pincel.fillRect(0, 0, 600, 400);
 
+    var raio = 10;
+
     function desenhaCirculo(evento) {
 
         var x = evento.pageX - tela.offsetLeft;
         var y = evento.pageY - tela.offsetTop;
+        
+
         pincel.fillStyle = cores[corAtual];
         pincel.beginPath();
 
         if (evento.shiftKey){
-            pincel.arc(x, y, 30, 0, 2 * 3.14);
-        } else {
-            pincel.arc(x, y, 10, 0, 2 * 3.14);
+            raio = raio + 20;
         }
-        
+
+        pincel.arc(x, y, raio, 0, 2 * 3.14);
         pincel.fill();
         console.log(x + ',' + y);
     }
