@@ -1,4 +1,6 @@
 <canvas width="600" height="400"></canvas>
+<br>
+Escolha uma cor <input type="color">
 
 <script>
     var tela = document.querySelector('canvas');
@@ -14,7 +16,7 @@
         var y = evento.pageY - tela.offsetTop;
         
         if (desenha) {
-            pincel.fillStyle = cores[corAtual];
+            pincel.fillStyle = document.querySelector('input').value;
             pincel.beginPath();
 
             if (evento.shiftKey){
@@ -36,18 +38,6 @@
     }
 
     tela.onmousemove = desenhaCirculo;
-    var cores = ['blue', 'red', 'green'];
-    var corAtual = 0;
-
-    function mudaCor() {
-
-        if (corAtual == 2){
-            corAtual = 0;
-        } else {
-            corAtual++;
-        }
-        return false;
-    }
 
     var desenha = false;
 
