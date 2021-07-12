@@ -1,0 +1,64 @@
+<meta charset="UTF-8">
+
+<script>
+
+    /*
+        Faça uma função que aceitará como parâmetro um número inteiro positivo impar.
+        A função deve imprimir um quadrado de lado n conforme a seguintes condições:
+            - elemento central preenchido com caractere X
+            - diagonal principal preenchida com caractere \
+            - diagonal secundaria preenchida com caractere /
+            - borda preenchida com caractere *
+            - demais elementos preenchidos com .
+    */
+
+    var ladoQuadrado = 0;
+    var ehPar = true;
+
+    while (ehPar) {
+        var ladoQuadrado = parseInt(prompt("Digite o valor do lado do quadrado."));    
+
+        if (ladoQuadrado % 2) {
+            ehPar = false;
+        }
+    }
+
+    // dividir o valor por 2 e pegar arrendondar o valor para que ele pegue a casa do meio
+    var meioQuadrado = Math.floor( ladoQuadrado / 2);
+
+    // diagonais principais sempre serão as matrizes iguais
+    // ex: 1,1 ; 2,2 ; 3,3 ; 4,4 ; 5,5 ; etc.
+
+    // diagonais secundarias serão sempre valores opostos
+    // ex: 1,9 ; 2,8 ; 3,7 ; 4,6 ; etc
+
+    for (var i = 0; i < ladoQuadrado; i++) {
+
+        var linha = '';
+
+        for (var j = 0; j < ladoQuadrado; j++){
+
+            if (i == meioQuadrado && j == meioQuadrado){ // verifica se é o elemento central
+                linha = linha + 'X';
+            } else 
+            if (i == j) { // verifica se é a diagonal principal
+                linha = linha + "\\"; 
+            } else 
+            if ((i + j) == ladoQuadrado-1) { // verifica se é a diagonal secundária
+                linha = linha + "/";
+            } else 
+            if ((i == 0 || j == 0) || (i == ladoQuadrado-1 || j == ladoQuadrado-1)) { // verifica se é a boarda
+                linha = linha + "*";
+            } else {
+                linha = linha + "."; // se não for nenhum dos anteriores, então preenche com o .
+            }          
+        }   
+
+        document.write(linha);
+        document.write("<br>");
+
+        linha = '';
+
+    }
+
+</script>
