@@ -1,0 +1,38 @@
+<meta charset="UTF-8">
+
+<script>
+    /*
+        Faça uma função chamada listar_letras_maiusculas_entre para imprimir as letras maiusculas entre uma letra inicial e uma letra final (inclusive).
+        A função deverá aceitar, como parâmetros, dois caractéres informando a letra inicial e a letra final.
+        A impressão das letras deverá ocorrer em linhas distintas.
+        Será considerado erro quando a letra inicial não for anterior ou igual a final ou letras não maiúsculas.
+        No caso das letras maiúsculas inicial e final serem informadas corretamente deverá ser retornado o valor 1, caso contrário 0 e não imprimir nada.
+        (Sugestão: Um caractere em C é um tipo inteiro, é possível comparar caractéres como se fossem valores numéricos)
+    */
+
+
+    var alfabeto = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+
+    function listar_letras_maiusculas_entre(letraInicial, letraFinal){
+
+        var indiceLetraInicial = alfabeto.indexOf(letraInicial);
+        var indiceLetraFinal = alfabeto.indexOf(letraFinal);
+
+        if (indiceLetraInicial == -1 || indiceLetraFinal == -1 || indiceLetraInicial > indiceLetraFinal){
+            return 0;
+        }
+
+        for (var i = indiceLetraInicial; i <= indiceLetraFinal; i++) {
+            document.write(alfabeto[i]);
+            document.write('<br>');            
+        }
+        
+        return 1;         
+    }
+
+    var primeiraLetra = prompt("Digite a letra inicial.");
+    var segundaLetra = prompt("Digite a letra inicial.");
+    
+    var result = listar_letras_maiusculas_entre(primeiraLetra, segundaLetra);
+
+</script>
