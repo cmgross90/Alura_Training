@@ -15,13 +15,18 @@
 
     function listar_letras_maiusculas_entre(letraInicial, letraFinal){
 
+        // verifica a posição das letras informadas no array do alfabeto
         var indiceLetraInicial = alfabeto.indexOf(letraInicial);
         var indiceLetraFinal = alfabeto.indexOf(letraFinal);
 
+        console.log('valor de inicial: ' + indiceLetraInicial + '     valor de final: ' + indiceLetraFinal)
+
+        // verifica se a letra inicial/final é maiúscula e verifica também se a letra final vem depois da letra inicial.
         if (indiceLetraInicial == -1 || indiceLetraFinal == -1 || indiceLetraInicial > indiceLetraFinal){
             return 0;
         }
 
+        // percorre o array do alfabeto e imprime as letras presentes na posição inicial até a final
         for (var i = indiceLetraInicial; i <= indiceLetraFinal; i++) {
             document.write(alfabeto[i]);
             document.write('<br>');            

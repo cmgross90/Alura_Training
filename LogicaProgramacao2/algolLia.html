@@ -31,17 +31,22 @@
 
                 if (i == meioQuadrado && j == meioQuadrado){ // verifica se é o elemento central
                     linha = linha + 'X';
+                    console.log('valor de i: ' + i + '   valor de j: ' + j + '    caractere inserido:   X');
                 } else 
                 if (i == j) { // verifica se é a diagonal principal
                     linha = linha + "\\"; 
+                    console.log('valor de i: ' + i + '   valor de j: ' + j + '    caractere inserido:   \\');
                 } else 
                 if ((i + j) == ladoQuadrado-1) { // verifica se é a diagonal secundária
                     linha = linha + "/";
+                    console.log('valor de i: ' + i + '   valor de j: ' + j + '    caractere inserido:   /');
                 } else 
                 if ((i == 0 || j == 0) || (i == ladoQuadrado-1 || j == ladoQuadrado-1)) { // verifica se é a boarda
                     linha = linha + "*";
+                    console.log('valor de i: ' + i + '   valor de j: ' + j + '    caractere inserido:   *');
                 } else {
                     linha = linha + "."; // se não for nenhum dos anteriores, então preenche com o .
+                    console.log('valor de i: ' + i + '   valor de j: ' + j + '    caractere inserido:   .');
                 }          
             }   
 
