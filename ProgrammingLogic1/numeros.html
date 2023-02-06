@@ -1,0 +1,52 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");	
+        document.write("<br>");	
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    // Números pares
+    var numero = 2;
+    while(numero <= 100){
+        mostra(numero + " é par.");
+        numero = numero + 2;
+    }
+
+    // Números entre 30 e 40, exceto 33 e 37
+    var numero2 = 30
+    while(numero2 <= 40){
+        if(numero2 != 33 && numero2 != 37){
+            mostra(numero2);
+        }
+        numero2++;
+    }
+    mostra("FIM");
+
+    // Todos os números de 20 a 0.
+    var numero3 = 20;
+    while(numero3 >= 0){
+        mostra(numero3);
+        numero3 = numero3 - 1;
+    }
+    mostra("FIM");
+
+
+    for( var i = 0; i < 10; i++ ) {
+        alert( "O resultado é " + (2 * i) );
+    }
+
+    var i2 = 0;
+    while(i2 < 10){
+        alert( "O resultado é " + (2 * i2) );
+        i2++;
+    }
+</script>

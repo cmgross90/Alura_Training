@@ -1,0 +1,41 @@
+<meta charset="UTF-8">
+
+<script>
+
+    var numeros = [5, 10, 25, 30, 2, 12, 9, 20, 4, 28];
+
+    var min = 100;
+    var max = 0;
+    var minPos = 0;
+    var maxPos = 0;
+
+    for (var i = 0; i < numeros.length; i++) {
+
+        if (min >= numeros[i]) {
+            min = numeros[i];
+            minPos = i+1;
+        }    
+
+        if (max <= numeros[i]) {
+            max = numeros[i];
+            maxPos = i+1;
+        }
+        
+    }
+
+    document.write("Lista: " + numeros);
+    document.write("<br>");
+
+    document.write("Valor mínimo: " + min);
+    document.write("<br>");
+    
+    document.write("Posição do valor mínimo na lista: " + minPos);
+    document.write("<br>");
+    
+    document.write("Valor máximo: " + max);
+    document.write("<br>");
+
+    document.write("Posição do valor máximo na lista: " + maxPos);
+
+
+</script>
