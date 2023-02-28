@@ -15,7 +15,7 @@ C:/_GitProjects/Alura_Training/Alura_Training/Unity/Part1/apocalipse-zumbi-alura
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50335
+59356
 Successfully changed project path to: C:/_GitProjects/Alura_Training/Alura_Training/Unity/Part1/apocalipse-zumbi-alura
 C:/_GitProjects/Alura_Training/Alura_Training/Unity/Part1/apocalipse-zumbi-alura
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/_GitProjects/Alura_Training/Alura_Training/Unity/Part1/apocalipse-zumbi-alura
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20224] Host "[IP] 192.168.1.196 [Port] 0 [Flags] 2 [Guid] 892834035 [EditorId] 892834035 [Version] 1048832 [Id] WindowsEditor(7,PC-Virus-C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19448] Host "[IP] 192.168.1.196 [Port] 0 [Flags] 2 [Guid] 3550422364 [EditorId] 3550422364 [Version] 1048832 [Id] WindowsEditor(7,PC-Virus-C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20224] Host "[IP] 192.168.1.196 [Port] 0 [Flags] 2 [Guid] 892834035 [EditorId] 892834035 [Version] 1048832 [Id] WindowsEditor(7,PC-Virus-C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19448] Host "[IP] 192.168.1.196 [Port] 0 [Flags] 2 [Guid] 3550422364 [EditorId] 3550422364 [Version] 1048832 [Id] WindowsEditor(7,PC-Virus-C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 49.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 47.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -67,92 +67,206 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006772 seconds.
+Registered in 0.006756 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 58.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 45.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.461 seconds
+- Completed reload, in  0.448 seconds
 Domain Reload Profiling:
-	ReloadAssembly (461ms)
-		BeginReloadAssembly (58ms)
+	ReloadAssembly (448ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (318ms)
-			LoadAssemblies (56ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (307ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (70ms)
+			SetupTypeCache (74ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (191ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (178ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
+				RefreshPlugins (46ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (91ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003948 seconds.
+Registered in 0.003967 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.685 seconds
+- Completed reload, in  0.648 seconds
 Domain Reload Profiling:
-	ReloadAssembly (685ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (649ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (503ms)
-			LoadAssemblies (61ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (485ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (147ms)
+			SetupTypeCache (143ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (235ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (227ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2921 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (56.1 KB). Loaded Objects now: 3384.
+Memory consumption went from 103.8 MB to 103.8 MB.
+Total: 2.173300 ms (FindLiveObjects: 0.165100 ms CreateObjectMapping: 0.073600 ms MarkObjects: 1.882000 ms  DeleteObjects: 0.051800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005730 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Domain Reload Profiling:
+	ReloadAssembly (664ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (476ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (197ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (152ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2916 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (24.6 KB). Loaded Objects now: 3388.
+Memory consumption went from 103.6 MB to 103.6 MB.
+Total: 1.955800 ms (FindLiveObjects: 0.156000 ms CreateObjectMapping: 0.062000 ms MarkObjects: 1.725000 ms  DeleteObjects: 0.012200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003798 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.667 seconds
+Domain Reload Profiling:
+	ReloadAssembly (667ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (492ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (214ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (133ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2918 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (56.0 KB). Loaded Objects now: 3381.
-Memory consumption went from 103.7 MB to 103.6 MB.
-Total: 3.420800 ms (FindLiveObjects: 0.387800 ms CreateObjectMapping: 0.088700 ms MarkObjects: 2.868200 ms  DeleteObjects: 0.075200 ms)
+Unloading 2916 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (24.6 KB). Loaded Objects now: 3391.
+Memory consumption went from 103.6 MB to 103.6 MB.
+Total: 1.976500 ms (FindLiveObjects: 0.149900 ms CreateObjectMapping: 0.053800 ms MarkObjects: 1.759800 ms  DeleteObjects: 0.012400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,161 +280,520 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 186861.743816 seconds.
-  path: Assets/Modelos3D/Construcoes/Loja_Destruido_05.fbx
-  artifactKey: Guid(fe53770ed6b19194b8554be96518aa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Loja_Destruido_05.fbx using Guid(fe53770ed6b19194b8554be96518aa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f6c308e8638cf4dc1d3f7a34f9ffb1') in 0.461334 seconds 
+  Time since last request: 207524.874818 seconds.
+  path: Assets/Scripts/ControlaArma.cs
+  artifactKey: Guid(8fecb73b59d975749be4455197960ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ControlaArma.cs using Guid(8fecb73b59d975749be4455197960ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e71a890db222cabffccc71acb51c61') in 0.019125 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Modelos3D/Construcoes/Predio_Apartamentos_Destruido.fbx
-  artifactKey: Guid(633ca997228e0c14aaea4e1d41b6c808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Predio_Apartamentos_Destruido.fbx using Guid(633ca997228e0c14aaea4e1d41b6c808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e3447723d6768fd428b9c36ba7b20a') in 0.018987 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004295 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.699 seconds
+Domain Reload Profiling:
+	ReloadAssembly (700ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (528ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2916 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (24.6 KB). Loaded Objects now: 3394.
+Memory consumption went from 103.6 MB to 103.6 MB.
+Total: 2.207100 ms (FindLiveObjects: 0.184500 ms CreateObjectMapping: 0.102500 ms MarkObjects: 1.902900 ms  DeleteObjects: 0.016600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Modelos3D/Construcoes/Loja_Destruido_06.fbx
-  artifactKey: Guid(c1969dabf15ffa449add595846e2a473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Loja_Destruido_06.fbx using Guid(c1969dabf15ffa449add595846e2a473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ad33d1e81355ed6737d4d340fa7184') in 0.020674 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004153 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.658 seconds
+Domain Reload Profiling:
+	ReloadAssembly (658ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (486ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (208ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2916 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (24.6 KB). Loaded Objects now: 3397.
+Memory consumption went from 103.6 MB to 103.6 MB.
+Total: 1.943100 ms (FindLiveObjects: 0.166900 ms CreateObjectMapping: 0.062700 ms MarkObjects: 1.699900 ms  DeleteObjects: 0.012900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Modelos3D/Construcoes/Loja_Destruido_01.fbx
-  artifactKey: Guid(26bb4e593a68c8645819a49130429f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Loja_Destruido_01.fbx using Guid(26bb4e593a68c8645819a49130429f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda071234ba1c1f35fc25dd551f5c90d') in 0.018925 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003582 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.667 seconds
+Domain Reload Profiling:
+	ReloadAssembly (668ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (486ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2917 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (24.7 KB). Loaded Objects now: 3401.
+Memory consumption went from 103.7 MB to 103.6 MB.
+Total: 2.018200 ms (FindLiveObjects: 0.151200 ms CreateObjectMapping: 0.054100 ms MarkObjects: 1.798200 ms  DeleteObjects: 0.014200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Modelos3D/Construcoes/Hospital_Entrada.fbx
-  artifactKey: Guid(8bd5db31b8ddce4449d18baca5f9896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Hospital_Entrada.fbx using Guid(8bd5db31b8ddce4449d18baca5f9896f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc882d42e896612264d1c2948b12d587') in 0.020100 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003609 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.662 seconds
+Domain Reload Profiling:
+	ReloadAssembly (663ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (489ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (215ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2917 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (24.8 KB). Loaded Objects now: 3404.
+Memory consumption went from 103.7 MB to 103.6 MB.
+Total: 2.080200 ms (FindLiveObjects: 0.161900 ms CreateObjectMapping: 0.054800 ms MarkObjects: 1.846500 ms  DeleteObjects: 0.016400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Modelos3D/Construcoes/Predio_Comercial_Destruido_05.fbx
-  artifactKey: Guid(590f2720cf3822f4c969793536df70a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Predio_Comercial_Destruido_05.fbx using Guid(590f2720cf3822f4c969793536df70a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3978347946a8c4b935055eb0c8ce1740') in 0.023675 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003650 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.692 seconds
+Domain Reload Profiling:
+	ReloadAssembly (693ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (526ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (161ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2917 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (24.7 KB). Loaded Objects now: 3407.
+Memory consumption went from 103.7 MB to 103.7 MB.
+Total: 2.053900 ms (FindLiveObjects: 0.215700 ms CreateObjectMapping: 0.060400 ms MarkObjects: 1.759500 ms  DeleteObjects: 0.017600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Modelos3D/Construcoes/Casa_Media_Destruido_03.fbx
-  artifactKey: Guid(b0f6cea7253b7fc48a7f72ceb5f06938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Casa_Media_Destruido_03.fbx using Guid(b0f6cea7253b7fc48a7f72ceb5f06938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df3e13154e1a713301093bc281763b6') in 0.023638 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003680 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.663 seconds
+Domain Reload Profiling:
+	ReloadAssembly (663ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (486ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (145ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2917 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (24.6 KB). Loaded Objects now: 3410.
+Memory consumption went from 103.7 MB to 103.7 MB.
+Total: 2.127100 ms (FindLiveObjects: 0.185100 ms CreateObjectMapping: 0.067500 ms MarkObjects: 1.857800 ms  DeleteObjects: 0.016000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Modelos3D/Construcoes/Casa_Pequena_Destruido_04.fbx
-  artifactKey: Guid(d2e0696861e4e584e9b83c7a7f08bc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Casa_Pequena_Destruido_04.fbx using Guid(d2e0696861e4e584e9b83c7a7f08bc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee31ab28b497617b4e1011484ca0b35') in 0.019708 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004221 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.683 seconds
+Domain Reload Profiling:
+	ReloadAssembly (684ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (518ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2917 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (24.6 KB). Loaded Objects now: 3413.
+Memory consumption went from 103.7 MB to 103.7 MB.
+Total: 2.546300 ms (FindLiveObjects: 0.177700 ms CreateObjectMapping: 0.055100 ms MarkObjects: 2.295400 ms  DeleteObjects: 0.017400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Modelos3D/Construcoes/Fonte.fbx
-  artifactKey: Guid(73ea2a9491c908b43a9ace253b38a134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Fonte.fbx using Guid(73ea2a9491c908b43a9ace253b38a134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a79c98a57bea961d4defae09d54f35c') in 0.012815 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003550 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.690 seconds
+Domain Reload Profiling:
+	ReloadAssembly (690ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (520ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2917 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (24.7 KB). Loaded Objects now: 3416.
+Memory consumption went from 103.7 MB to 103.7 MB.
+Total: 2.263800 ms (FindLiveObjects: 0.228400 ms CreateObjectMapping: 0.069100 ms MarkObjects: 1.951200 ms  DeleteObjects: 0.014500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Modelos3D/Construcoes/Hospital_Destruido.fbx
-  artifactKey: Guid(655dd9d65d925f34887f6593da809b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Hospital_Destruido.fbx using Guid(655dd9d65d925f34887f6593da809b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360b31794846826e5524c870d5798b11') in 0.016666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Modelos3D/Construcoes/Cafeteria_Destruido.fbx
-  artifactKey: Guid(fb05055bdf7d393469f036a23dbcc0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Cafeteria_Destruido.fbx using Guid(fb05055bdf7d393469f036a23dbcc0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d172c62c4da4a287e839c1d4ac6c76') in 0.022435 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Modelos3D/Construcoes/Casa_Alta_Destruido_01.fbx
-  artifactKey: Guid(75abd7c7b52495f40a4de872d31c4118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Casa_Alta_Destruido_01.fbx using Guid(75abd7c7b52495f40a4de872d31c4118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed45524edb42b13e3ac539c7351b9fd') in 0.023603 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Modelos3D/Construcoes/Loja_Destruido_07.fbx
-  artifactKey: Guid(4b67c214b804be1468198de7ca29c53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Loja_Destruido_07.fbx using Guid(4b67c214b804be1468198de7ca29c53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75994d2d5de7fca428eed4cd65f8dae8') in 0.022191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Modelos3D/Construcoes/Casa_Media_Destruido_01.fbx
-  artifactKey: Guid(f69f0d0835848ff459d6e0d6182aac9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Casa_Media_Destruido_01.fbx using Guid(f69f0d0835848ff459d6e0d6182aac9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca39a17ce370b76cbfa8912ada05f27b') in 0.023690 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Modelos3D/Construcoes/Loja_Destruido_04.fbx
-  artifactKey: Guid(51a2dc083879e5b4abd9154e8382f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Loja_Destruido_04.fbx using Guid(51a2dc083879e5b4abd9154e8382f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48544c5cfc1b4ef8df17ef28e274fb7') in 0.022125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Modelos3D/Construcoes/Casa_Alta_Destruido_02.fbx
-  artifactKey: Guid(54d965780fdd2d143ad88b2f34bdaaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Casa_Alta_Destruido_02.fbx using Guid(54d965780fdd2d143ad88b2f34bdaaa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72111e286a684b908aade8f7ebd26436') in 0.021583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.941312 seconds.
-  path: Assets/Modelos3D/Construcoes/Predio_Destruido_01.fbx
-  artifactKey: Guid(dd938844ff7284f4bb7895d5fb90913b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Predio_Destruido_01.fbx using Guid(dd938844ff7284f4bb7895d5fb90913b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c81fc692dc697cb053859f57c73cb6') in 0.025335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Modelos3D/Construcoes/Predio_Destruido_04.fbx
-  artifactKey: Guid(b2fbafca93c599a4ea713c346cecd3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Predio_Destruido_04.fbx using Guid(b2fbafca93c599a4ea713c346cecd3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0295ebdc698fbdf45050dc08d3d27085') in 0.031990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Modelos3D/Construcoes/Prefeitura_Destruida.fbx
-  artifactKey: Guid(68253c90f4ddcc243ba8bc4d92d639e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Prefeitura_Destruida.fbx using Guid(68253c90f4ddcc243ba8bc4d92d639e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f0879b73f76128c1231c0a0a3b3eda') in 0.022570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 134.297926 seconds.
-  path: Assets/Modelos3D/Construcoes/Torre_Agua.fbx
-  artifactKey: Guid(8ed13ebf505469d4da1b35c5952b76ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Torre_Agua.fbx using Guid(8ed13ebf505469d4da1b35c5952b76ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85e22d46a98bdd9518330eb65673621') in 0.020287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Modelos3D/Construcoes/Trailer_Destruido.fbx
-  artifactKey: Guid(8026222f337b8a04e9d9e463fe647931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos3D/Construcoes/Trailer_Destruido.fbx using Guid(8026222f337b8a04e9d9e463fe647931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291bb1e0630758f1fd966a3e5899f9d2') in 0.027540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 703.351094 seconds.
-  path: Assets/Texturas/Corpos/Corpo_01.png
-  artifactKey: Guid(f99b2a52314de76448f7285c9783ed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Corpos/Corpo_01.png using Guid(f99b2a52314de76448f7285c9783ed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b37a20afbbb1a635f22365a2d966d4') in 0.020135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Texturas/Personagens/Personagem_Construtor.png
-  artifactKey: Guid(f7dd35384e233a344ade3ccc81aa1f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Personagens/Personagem_Construtor.png using Guid(f7dd35384e233a344ade3ccc81aa1f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cbf9617c6d25ac01a4ce1582d4fa41') in 0.037565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Texturas/Corpos/Corpo_02.png
-  artifactKey: Guid(d361e626f294f2e4f834ec3cc61758ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Corpos/Corpo_02.png using Guid(d361e626f294f2e4f834ec3cc61758ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45354539f5167c967623ea080addeb1d') in 0.019579 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Texturas/Personagens/Personagem_Cacador.png
-  artifactKey: Guid(86f4eb568f641bc4caf79cb6beca8739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Personagens/Personagem_Cacador.png using Guid(86f4eb568f641bc4caf79cb6beca8739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87032f884f864a27fa05d2186225ef04') in 0.014250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Texturas/Corpos/Corpo_03.png
-  artifactKey: Guid(c1f52c4ae99ce5b43a14ded45027c7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturas/Corpos/Corpo_03.png using Guid(c1f52c4ae99ce5b43a14ded45027c7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41cb9326d5744e2373da37b64927390') in 0.016571 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003855 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\_GitProjects\Alura_Training\Alura_Training\Unity\Part1\apocalipse-zumbi-alura\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.709 seconds
+Domain Reload Profiling:
+	ReloadAssembly (710ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (531ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (157ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2917 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (24.7 KB). Loaded Objects now: 3419.
+Memory consumption went from 103.7 MB to 103.7 MB.
+Total: 2.084900 ms (FindLiveObjects: 0.190100 ms CreateObjectMapping: 0.057000 ms MarkObjects: 1.821500 ms  DeleteObjects: 0.015600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
