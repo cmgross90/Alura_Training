@@ -14,9 +14,21 @@ for (let i = 0; i < keyList.length; i++ ){
 
     console.log(idAudio);
 
-    keyList[i].onclick = function () {
+    key.onclick = function() {
         playSound(idAudio);
     } 
+
+    key.onkeydown = function(e) {
+        if ((e.code == 'Enter') || (e.code == 'Space')) {
+            key.classList.add('ativa');
+        }        
+    }
+
+    key.onkeyup = function(e) {
+        if ((e.code == 'Enter') || (e.code == 'Space')) {
+            key.classList.remove('ativa');
+        }
+    }
 }
 
 /*
